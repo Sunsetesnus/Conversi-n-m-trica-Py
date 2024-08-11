@@ -1,0 +1,12 @@
+-----------------------------------
+
+----------------------------------
+Algoritmo:
+1. Solicitar al usuario las medidas de las piezas en cm 
+2. Convertir las medidas de centímetro a pulgadas
+3. Mostrar las medidasa convertidas en pulgadas al usuario
+----------------------------------
+Pseudocódigo
+----------------------------------
+Inicio 
+P1: 

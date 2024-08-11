@@ -1,0 +1,34 @@
+-----------------------------------------------------------------------
+Algoritmo
+-----------------------------------------------------------------------
+1. Solicitar al usuario el tipo de conversión (euro a mex o dólar a mex)
+2. Solicitar al usuario el monto a convertir
+3. Realizar la conversión utilizando el tipo de camio correspondiente
+4. Mostrar el resultado de la conversión al usuario
+----------------------------------------------------------------------
+
+Pseudocódigo
+
+Inicio
+#Paso1
+    Definir tipo_cambio_eur_a_mxn = 23.70
+    Definir tipo_ca,bio_usd_a_mxn = 20.75
+#paso2
+    Solicitar al usuario el tipo de conversión (Euro a mex o Dolar a Mex)
+    Mostrar mensaje: "Ingrese la moneda origen para la conversión (EUR/USD)"
+
+# Paso3
+    Solicitar al usuario el monto a convertir
+    Mostrar mensaje: "ingrese el monto a convertir: "
+
+#Paso4: Realizar la conversión utilizando el tipo de cambio correspondiente
+
+Si tipo_conversión == "EUR"
+    calcular resultado = monto_a_convertir * tipo_cambio_eur_a_mxn
+    mostrar "el resultado de la conversión de EUR a MXN es: ", resultado
+Sino si tipo_conversion == "USD"
+    calcular resultado = monto_a_convertir * tipo_cambio_usd_a_mxn
+    Mostrar "el resultado de la conversion de USD a MXN es: ", resultado
+Sino
+    Mostrar: "No está disponible este tipo de conversión actualmente"
+Fin
